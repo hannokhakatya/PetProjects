@@ -1,0 +1,19 @@
+.footer {
+  background-color: rgb(35, 34, 34);
+  display: flex;
+  justify-content: space-between;
+  padding: 10px;
+  color: white;
+}
+
+.left_section {
+  display: flex;
+  justify-content: space-between;
+  width: 140px;
+  align-items: center;
+}
+
+.right_section {
+  align-items: center;
+  display: flex;
+}

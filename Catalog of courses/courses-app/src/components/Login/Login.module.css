@@ -1,0 +1,40 @@
+.login {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 74px);
+    justify-content: center;
+}
+
+.login form {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap:10px;
+}
+
+.login label {
+    display: block;
+    margin-bottom: 5px;
+}
+.login input {
+    width: 300px;
+}
+
+.offscreen {
+    display:none;
+}
+
+.errMsg {
+    color:red;
+}
+
+.instructions {
+    width: 300px;
+    background-color: grey;
+    color: white;
+    border: 1px solid black;
+    padding: 5px;
+    font-size: 13px;
+}

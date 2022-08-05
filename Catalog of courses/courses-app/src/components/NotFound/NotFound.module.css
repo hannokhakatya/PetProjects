@@ -1,0 +1,8 @@
+.NotFound  {
+    border: 1px solid blue;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: calc(100vh - 74px);
+    justify-content: center;
+}

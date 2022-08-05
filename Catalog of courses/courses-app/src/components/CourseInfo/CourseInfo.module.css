@@ -1,0 +1,25 @@
+.courseCard {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap:10px;
+    padding: 15px;
+    font-size: 18px;
+    grid-column-gap: 100px;
+
+}
+
+.courseInfo {
+    border:1px solid blue;
+    margin: 10px 0;
+    padding: 15px 30px;
+
+}
+
+.courseInfo h2 {
+    text-align: center;
+    font-size: 30px;
+}
+
+.id {
+    margin-top: -4px;
+}

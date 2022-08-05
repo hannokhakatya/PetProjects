@@ -1,0 +1,10 @@
+.main {
+    border: solid 1px blue;
+    padding: 15px;
+}
+
+.searchBarAndButton {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 15px;
+}

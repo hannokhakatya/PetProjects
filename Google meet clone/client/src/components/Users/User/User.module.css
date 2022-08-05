@@ -1,0 +1,75 @@
+.cameraOn {
+  height: 200px;
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: rgb(43, 42, 42);
+  border-radius: 10px;
+  box-sizing: border-box;
+}
+.cameraOn img {
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.name {
+  position: absolute;
+  color: white;
+  padding: 5px;
+}
+
+.cameraOff {
+  height: 200px;
+  max-width: 100%;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(78, 78, 78);
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.cameraOff .name {
+  top: 85%;
+}
+.cameraOff img {
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+}
+
+.roundBlock {
+  width: 90px;
+  height: 90px;
+  margin: 0 auto;
+  display: flex;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.cameraOn:hover {
+  border: 4px rgb(35, 133, 246) solid;
+  border-radius: 15px;
+}
+
+.cameraOff:hover {
+  border: 4px rgb(35, 133, 246) solid;
+  border-radius: 15px;
+}
+
+.microphone {
+  position: absolute;
+  color: white;
+  top: 5%;
+  left: 90%;
+}
+
+button {
+  border: none;
+  padding: 0;
+}
